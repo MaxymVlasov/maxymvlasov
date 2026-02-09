@@ -1,0 +1,118 @@
+# https://github.com/stats-organization/github-readme-stats-action#readme
+name: Update github-readme-stats cards
+
+on:
+  schedule:
+    - cron: "0 9 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4.3.1
+
+      # Generate wakatime stats card
+      - name: Generate wakatime stats card
+        uses: readme-tools/github-readme-stats-action@b4d2ef3b8051484b318d455163153b23a2b35fa2 # v1.1.0
+        with:
+          card: wakatime
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=16&theme=github_dark&hide_title=true
+          path: github-readme-stats-action/wakatime-stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # Generate stats card
+      - name: Generate stats card
+        uses: readme-tools/github-readme-stats-action@b4d2ef3b8051484b318d455163153b23a2b35fa2 # v1.1.0
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&theme=github_dark&include_all_commits=true&count_private=true
+          path: github-readme-stats-action/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # Generate pin cards
+      - name: Generate pin card (antonbabenko/pre-commit-terraform)
+        uses: readme-tools/github-readme-stats-action@b4d2ef3b8051484b318d455163153b23a2b35fa2 # v1.1.0
+        with:
+          card: pin
+          options: username=antonbabenko&repo=pre-commit-terraform&theme=github_dark&show_owner=true
+          path: github-readme-stats-action/pin_antonbabenko_pre-commit-terraform.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate pin card (SpotOnInc/renovate-config)
+        uses: readme-tools/github-readme-stats-action@b4d2ef3b8051484b318d455163153b23a2b35fa2 # v1.1.0
+        with:
+          card: pin
+          options: username=SpotOnInc&repo=renovate-config&theme=github_dark&show_owner=true
+          path: github-readme-stats-action/pin_SpotOnInc_renovate-config.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate pin card (MaxymVlasov/dive-action)
+        uses: readme-tools/github-readme-stats-action@b4d2ef3b8051484b318d455163153b23a2b35fa2 # v1.1.0
+        with:
+          card: pin
+          options: username=MaxymVlasov&repo=dive-action&theme=github_dark
+          path: github-readme-stats-action/pin_MaxymVlasov_dive-action.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate pin card (SpotOnInc/pre-commit-yq)
+        uses: readme-tools/github-readme-stats-action@b4d2ef3b8051484b318d455163153b23a2b35fa2 # v1.1.0
+        with:
+          card: pin
+          options: username=SpotOnInc&repo=pre-commit-yq&theme=github_dark&show_owner=true
+          path: github-readme-stats-action/pin_SpotOnInc_pre-commit-yq.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate pin card (MaxymVlasov/eco-data-visualizer)
+        uses: readme-tools/github-readme-stats-action@b4d2ef3b8051484b318d455163153b23a2b35fa2 # v1.1.0
+        with:
+          card: pin
+          options: username=MaxymVlasov&repo=eco-data-visualizer&theme=github_dark
+          path: github-readme-stats-action/pin_MaxymVlasov_eco-data-visualizer.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate pin card (MaxymVlasov/qingping)
+        uses: readme-tools/github-readme-stats-action@b4d2ef3b8051484b318d455163153b23a2b35fa2 # v1.1.0
+        with:
+          card: pin
+          options: username=MaxymVlasov&repo=qingping&theme=github_dark
+          path: github-readme-stats-action/pin_MaxymVlasov_qingping.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # Previous projects 
+      - name: Generate pin card (kubernetes/website)
+        uses: readme-tools/github-readme-stats-action@b4d2ef3b8051484b318d455163153b23a2b35fa2 # v1.1.0
+        with:
+          card: pin
+          options: username=kubernetes&repo=website&theme=github_dark&show_owner=true
+          path: github-readme-stats-action/pin_kubernetes_website.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate pin card (pdffiller/styleguide-hooks)
+        uses: readme-tools/github-readme-stats-action@b4d2ef3b8051484b318d455163153b23a2b35fa2 # v1.1.0
+        with:
+          card: pin
+          options: username=pdffiller&repo=styleguide-hooks&theme=github_dark&show_owner=true
+          path: github-readme-stats-action/pin_pdffiller_styleguide-hooks.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate pin card (shalb/cluster.dev)
+        uses: readme-tools/github-readme-stats-action@b4d2ef3b8051484b318d455163153b23a2b35fa2 # v1.1.0
+        with:
+          card: pin
+          options: username=shalb&repo=cluster.dev&theme=github_dark&show_owner=true
+          path: github-readme-stats-action/pin_shalb_cluster.dev.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+
+      # Commit and push changes
+      - name: Commit cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add github-readme-stats-action/*.svg
+          git commit -m "Update github-readme-stats-action cards" || exit 0
+          git push

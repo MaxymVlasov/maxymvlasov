@@ -125,7 +125,7 @@
             data-testid="lang-progress"
             x="91.419"
             y="0"
-            width="88.62899999999999"
+            width="88.257"
             height="8"
             fill="#cb171e"
           />
@@ -133,9 +133,9 @@
           <rect
             mask="url(#rect-mask)"
             data-testid="lang-progress"
-            x="180.048"
+            x="179.676"
             y="0"
-            width="73.7025"
+            width="73.28399999999999"
             height="8"
             fill="#083fa1"
           />
@@ -143,9 +143,9 @@
           <rect
             mask="url(#rect-mask)"
             data-testid="lang-progress"
-            x="253.7505"
+            x="252.95999999999998"
             y="0"
-            width="61.9845"
+            width="62.9145"
             height="8"
             fill="#858585"
           />
@@ -153,9 +153,9 @@
           <rect
             mask="url(#rect-mask)"
             data-testid="lang-progress"
-            x="315.735"
+            x="315.87449999999995"
             y="0"
-            width="45.89549999999999"
+            width="45.7095"
             height="8"
             fill="#858585"
           />
@@ -163,9 +163,9 @@
           <rect
             mask="url(#rect-mask)"
             data-testid="lang-progress"
-            x="361.6305"
+            x="361.58399999999995"
             y="0"
-            width="42.73349999999999"
+            width="43.152"
             height="8"
             fill="#858585"
           />
@@ -173,9 +173,9 @@
           <rect
             mask="url(#rect-mask)"
             data-testid="lang-progress"
-            x="404.364"
+            x="404.73599999999993"
             y="0"
-            width="16.6005"
+            width="16.461"
             height="8"
             fill="#292929"
           />
@@ -183,9 +183,9 @@
           <rect
             mask="url(#rect-mask)"
             data-testid="lang-progress"
-            x="420.9645"
+            x="421.19699999999995"
             y="0"
-            width="16.461"
+            width="16.3215"
             height="8"
             fill="#3572A5"
           />
@@ -193,9 +193,9 @@
           <rect
             mask="url(#rect-mask)"
             data-testid="lang-progress"
-            x="437.4255"
+            x="437.51849999999996"
             y="0"
-            width="6.696000000000001"
+            width="6.6495"
             height="8"
             fill="#267CB9"
           />
@@ -203,9 +203,9 @@
           <rect
             mask="url(#rect-mask)"
             data-testid="lang-progress"
-            x="444.1215"
+            x="444.16799999999995"
             y="0"
-            width="5.6265"
+            width="5.58"
             height="8"
             fill="#858585"
           />
@@ -213,9 +213,9 @@
           <rect
             mask="url(#rect-mask)"
             data-testid="lang-progress"
-            x="449.74800000000005"
+            x="449.74799999999993"
             y="0"
-            width="5.440499999999999"
+            width="5.394"
             height="8"
             fill="#858585"
           />
@@ -223,9 +223,9 @@
           <rect
             mask="url(#rect-mask)"
             data-testid="lang-progress"
-            x="455.18850000000003"
+            x="455.14199999999994"
             y="0"
-            width="4.9755"
+            width="4.929"
             height="8"
             fill="#858585"
           />
@@ -233,9 +233,9 @@
           <rect
             mask="url(#rect-mask)"
             data-testid="lang-progress"
-            x="460.16400000000004"
+            x="460.0709999999999"
             y="0"
-            width="2.418"
+            width="2.3715"
             height="8"
             fill="#3178c6"
           />
@@ -243,7 +243,7 @@
           <rect
             mask="url(#rect-mask)"
             data-testid="lang-progress"
-            x="462.58200000000005"
+            x="462.44249999999994"
             y="0"
             width="1.395"
             height="8"
@@ -253,7 +253,7 @@
           <rect
             mask="url(#rect-mask)"
             data-testid="lang-progress"
-            x="463.97700000000003"
+            x="463.8374999999999"
             y="0"
             width="1.023"
             height="8"
@@ -263,7 +263,7 @@
           <rect
             mask="url(#rect-mask)"
             data-testid="lang-progress"
-            x="465.00000000000006"
+            x="464.86049999999994"
             y="0"
             width="0.7440000000000001"
             height="8"
@@ -274,42 +274,42 @@
     <g transform="translate(25, 25)">
       <circle cx="5" cy="6" r="5" fill="#858585" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Terraform - 80 hrs 11 mins
+        Terraform - 80 hrs 41 mins
       </text>
     </g>
   
     <g transform="translate(230, 25)">
       <circle cx="5" cy="6" r="5" fill="#cb171e" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        YAML - 77 hrs 43 mins
+        YAML - 77 hrs 50 mins
       </text>
     </g>
   
     <g transform="translate(25, 50)">
       <circle cx="5" cy="6" r="5" fill="#083fa1" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Markdown - 64 hrs 36 mins
+        Markdown - 64 hrs 39 mins
       </text>
     </g>
   
     <g transform="translate(230, 50)">
       <circle cx="5" cy="6" r="5" fill="#858585" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        atmos.tools YAML (Terraform wrapper) - 54 hrs 22 mins
+        atmos.tools YAML (Terraform wrapper) - 55 hrs 30 mins
       </text>
     </g>
   
     <g transform="translate(25, 75)">
       <circle cx="5" cy="6" r="5" fill="#858585" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Other - 40 hrs 13 mins
+        Other - 40 hrs 17 mins
       </text>
     </g>
   
     <g transform="translate(230, 75)">
       <circle cx="5" cy="6" r="5" fill="#858585" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Bash - 37 hrs 29 mins
+        Bash - 38 hrs 5 mins
       </text>
     </g>
   

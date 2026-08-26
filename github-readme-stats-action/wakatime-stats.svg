@@ -125,7 +125,7 @@
             data-testid="lang-progress"
             x="91.512"
             y="0"
-            width="88.4895"
+            width="88.6755"
             height="8"
             fill="#cb171e"
           />
@@ -133,7 +133,7 @@
           <rect
             mask="url(#rect-mask)"
             data-testid="lang-progress"
-            x="180.00150000000002"
+            x="180.1875"
             y="0"
             width="73.88850000000001"
             height="8"
@@ -143,9 +143,9 @@
           <rect
             mask="url(#rect-mask)"
             data-testid="lang-progress"
-            x="253.89000000000004"
+            x="254.07600000000002"
             y="0"
-            width="62.96099999999999"
+            width="62.9145"
             height="8"
             fill="#858585"
           />
@@ -153,7 +153,7 @@
           <rect
             mask="url(#rect-mask)"
             data-testid="lang-progress"
-            x="316.85100000000006"
+            x="316.9905"
             y="0"
             width="44.082"
             height="8"
@@ -163,9 +163,9 @@
           <rect
             mask="url(#rect-mask)"
             data-testid="lang-progress"
-            x="360.93300000000005"
+            x="361.0725"
             y="0"
-            width="44.0355"
+            width="43.989000000000004"
             height="8"
             fill="#858585"
           />
@@ -173,7 +173,7 @@
           <rect
             mask="url(#rect-mask)"
             data-testid="lang-progress"
-            x="404.96850000000006"
+            x="405.0615"
             y="0"
             width="16.6935"
             height="8"
@@ -183,7 +183,7 @@
           <rect
             mask="url(#rect-mask)"
             data-testid="lang-progress"
-            x="421.66200000000003"
+            x="421.755"
             y="0"
             width="16.1355"
             height="8"
@@ -193,7 +193,7 @@
           <rect
             mask="url(#rect-mask)"
             data-testid="lang-progress"
-            x="437.7975"
+            x="437.8905"
             y="0"
             width="6.370500000000001"
             height="8"
@@ -203,7 +203,7 @@
           <rect
             mask="url(#rect-mask)"
             data-testid="lang-progress"
-            x="444.168"
+            x="444.26099999999997"
             y="0"
             width="5.58"
             height="8"
@@ -213,7 +213,7 @@
           <rect
             mask="url(#rect-mask)"
             data-testid="lang-progress"
-            x="449.748"
+            x="449.84099999999995"
             y="0"
             width="5.394"
             height="8"
@@ -223,7 +223,7 @@
           <rect
             mask="url(#rect-mask)"
             data-testid="lang-progress"
-            x="455.142"
+            x="455.23499999999996"
             y="0"
             width="4.7895"
             height="8"
@@ -233,7 +233,7 @@
           <rect
             mask="url(#rect-mask)"
             data-testid="lang-progress"
-            x="459.93149999999997"
+            x="460.02449999999993"
             y="0"
             width="2.2319999999999998"
             height="8"
@@ -243,7 +243,7 @@
           <rect
             mask="url(#rect-mask)"
             data-testid="lang-progress"
-            x="462.1635"
+            x="462.25649999999996"
             y="0"
             width="1.4880000000000002"
             height="8"
@@ -253,7 +253,7 @@
           <rect
             mask="url(#rect-mask)"
             data-testid="lang-progress"
-            x="463.6515"
+            x="463.74449999999996"
             y="0"
             width="0.9764999999999999"
             height="8"
@@ -263,7 +263,7 @@
           <rect
             mask="url(#rect-mask)"
             data-testid="lang-progress"
-            x="464.628"
+            x="464.72099999999995"
             y="0"
             width="0.6975"
             height="8"
@@ -281,7 +281,7 @@
     <g transform="translate(230, 25)">
       <circle cx="5" cy="6" r="5" fill="#cb171e" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        YAML - 81 hrs 34 mins
+        YAML - 81 hrs 45 mins
       </text>
     </g>
   

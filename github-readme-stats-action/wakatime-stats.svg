@@ -115,7 +115,7 @@
             data-testid="lang-progress"
             x="0"
             y="0"
-            width="90.76799999999999"
+            width="90.72150000000002"
             height="8"
             fill="#858585"
           />
@@ -123,9 +123,9 @@
           <rect
             mask="url(#rect-mask)"
             data-testid="lang-progress"
-            x="90.76799999999999"
+            x="90.72150000000002"
             y="0"
-            width="89.2335"
+            width="89.28"
             height="8"
             fill="#083fa1"
           />
@@ -133,7 +133,7 @@
           <rect
             mask="url(#rect-mask)"
             data-testid="lang-progress"
-            x="180.0015"
+            x="180.00150000000002"
             y="0"
             width="84.81599999999999"
             height="8"
@@ -274,7 +274,7 @@
     <g transform="translate(25, 25)">
       <circle cx="5" cy="6" r="5" fill="#858585" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Terraform - 96 hrs 24 mins
+        Terraform - 96 hrs 19 mins
       </text>
     </g>
   
@@ -288,14 +288,14 @@
     <g transform="translate(25, 50)">
       <circle cx="5" cy="6" r="5" fill="#cb171e" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        YAML - 90 hrs 4 mins
+        YAML - 90 hrs 1 min
       </text>
     </g>
   
     <g transform="translate(230, 50)">
       <circle cx="5" cy="6" r="5" fill="#858585" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        atmos.tools YAML (Terraform wrapper) - 66 hrs 46 mins
+        atmos.tools YAML (Terraform wrapper) - 66 hrs 43 mins
       </text>
     </g>
   
